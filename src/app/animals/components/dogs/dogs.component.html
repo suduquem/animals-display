@@ -1,0 +1,13 @@
+<!-- <div *ngIf="dogList.length"> -->
+  <div class="container">
+    <div class="row">
+      <div class="col" *ngFor="let dog of dogList">
+        <app-card
+          [breed]="dog.breed"
+          [imageUrl]="dog.imageUrl"
+          [description]="dog.description"
+        ></app-card>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->

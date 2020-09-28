@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "animals-display"
+    }
+  },
+  "defaultProject": "animals-display",
+  "cli": {
+    "analytics": "019d31ea-0c0b-4082-8d08-e0fb94bfc984"
+  }
 }

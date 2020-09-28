@@ -1,0 +1,28 @@
+#navigation {
+    background: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+#navigation li{
+    list-style-type: none; /*Para quitar las viñetas*/
+    margin: 5px;
+    padding: 3px;
+    background: #3f3d3d;
+}
+
+#navigation li.actual{ /*Para todos los li que tengan la clase actual --> navegación*/
+    background: #49beb7;
+
+}
+
+#navigation li a{ /*links*/
+    color: #ffffff;
+    text-decoration: none; /*para quitar el subrayado*/
+}
+
+#navigation li a:hover{ /*Para cuando se pase por encima de los links*/
+    font-weight: bold;
+
+}
