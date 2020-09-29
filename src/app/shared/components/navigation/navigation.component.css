@@ -12,7 +12,7 @@
     background: #3f3d3d;
 }
 
-#navigation li.actual{ /*Para todos los li que tengan la clase actual --> navegación*/
+.active{ /*Para todos los li que tengan la clase actual --> navegación*/
     background: #49beb7;
 
 }
